@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+#navbar{display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: rgb(132, 0, 255);
+font-size: 20px;
+margin: 0%;
+font-family:"Lugrasimo";
+height:80px;}
+.navbar img{padding-bottom: 25px;
+    padding-left: 10px;
+height:50px;}
+.navbar{color: rgb(252, 0, 255);
+text-decoration: none;
+text-shadow: 2px 2px 0 #000000;
+padding-top: 10px;}
+.nav2{padding: 15px;
+border: #fffefe solid 5px;
+margin-right: 5px;}
+.tec{display: flex;
+align-items: center;
+text-shadow: 2px 2px 0 #000000;}
+
+
+
+.GFG {
+    width: 190px;
+    height: 60px;}
+.GFG:hover {
+    color:#fc00ff;
+    background:#8400ff;
+    box-shadow: 0 0 100px 20px #fc00ff;
+}
+
+/* The layout of the css in the gfg class cause a glow effect, I THINK - in the box shadow 0 0 is no colour and the 100px is the box outline, so it shows only the outline colour on the dimensions of the box you make.  */
+
+
+.nav2:hover {
+color:transparent;
+text-shadow: 0 0 0;
+background-image: url(eldritch.jpg);
+background-size:100%;
+background-repeat: no-repeat;}
+
+/* when mouse over button - the colour of the text vanishes, showing the image in the box
+the 100% fills the space of the element. which is why it fills it exactly */
+
+
+
+#iced{width: 600px;
+height:400px;
+border: solid 8px #fc00ff;}
+.iced{display: flex;
+justify-content:space-around;
+align-items: center;
+padding-top:25px;
+color: #ffffff;}
+.twoblast{display: flex;
+justify-content: center;
+width: 400px;
+border: solid 8px #fc00ff}
+.cofeeshop{width:600px;
+height: 400px;
+border: solid 8px #fc00ff}
+
+#title{color:#fc00ff;
+text-align: center;
+font-size: 25px;
+font-family: "Lugrasimo" sans-serif;
+text-decoration: underline;}
+
+.sub{display:flex;
+justify-content: space-between;
+color:#8400ff;
+text-align: center;
+font-size: 12px;
+font-family: "Lugrasimo";
+padding:10px 290px;}
+.iced div{display: flex;
+align-items:  center;
+flex-direction: column;}
+.iced h4{text-align: center;}
+
+
+#welcome{color:#ffffff;
+text-align: center;
+font-family: "Lugrasimo";
+text-shadow: 1px 1px 0 #000000;
+font-size: 20px;
+padding-left: 25px;
+padding-right: 25px;}
+
+/*PAGE 2 */
+
+#drinks{display: flex;
+justify-content: space-between;
+align-content: center;}
+.drinks{width:300px;
+    height:200px;
+    object-fit: cover;
+margin: 10px;
+border: #fc00ff solid 8px;
+}
+/* img:hover{display: none;
+} */
+
+.prices{display:flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    color:#ffffff;
+    font-size: 12px;
+    font-family: "Lugrasimo";}
+.prices div{display: flex;
+flex-direction: column;
+align-items: center;}
+
+
+.prices h5{margin: 0%;}
+.prices h4{margin: 0%;}
+
+#drinkscriptions ol{display:flex;
+flex-direction: column;
+justify-content:center;
+color: #ffffff;
+font-size:20px;
+font-family: "Lugrasimo";
+padding-right:50px;
+padding-left:50px;}
+
+p{color: #ffffff;}
+
+#drinkscriptions p{text-align: center;
+font-family: "Lugrasimo";
+padding-bottom: 50px;
+padding-top: 20px;}
+
+body{background-color:rgba(132, 0, 255, 0.4);
+margin: 0;
+background-image:url(seating.jpg);
+background-size: 100%;}
+
+
+#main{min-height: calc(100vh - 160px);}
+
+li{margin:10px 0}
+
+
+.GFG2 {
+    width: 100px;
+    height: 35px;}
+.GFG2:hover {
+    color:#fc00ff;
+    background:#8400ff;
+    box-shadow: 0 0 100px #fc00ff;
+}
+
+
+#customers{display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    .alignment{display: flex;
+    align-items: center;
+    color: #ffffff;
+    text-align: center;
+    justify-content: space-between;
+    font-size: 20px;}
+    .alignment q{
+        border: solid 5px #fc00ff;
+    font-size: 20px;
+margin:0 10px}
+    
+    .alignment h4{margin: 0%;}
+    
+    .alignment img{
+        border: solid 8px #8400ff;
+    margin: 10px;}
+
+
+#footbar{display: flex;
+flex-direction: row;
+justify-content:center;
+flex-wrap: wrap;
+align-items:center;
+background-color:#8400ff;
+font-size: 25px;
+height: 80px;
+}
+.footbar{color:violet;
+padding:10px;
+text-shadow: 2px 2px 0 #000000;
+text-decoration: none;}
+.foot2{border-left:3px solid #1c1c1c;
+border-right: 3px solid #1c1c1c;}
+.foot3{border-right: 3px solid #1c1c1c;}
+
+/* testimonials */
+
+ /* #customers{display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.alignment{display: flex;
+align-items: center;
+color: #ffffff;
+text-align: center;
+justify-content: space-between;
+font-size: 20px;}
+.alignment q{padding: 105px;}
+
+.alignment h4{margin: 0%;}
+
+.alignment img{width: 40vw;
+    border: solid 8px #8400ff;
+margin: 10px;} */
+
+/* .alignment q{
+    border: solid 1px #fc00ff;
+font-size: 30px;} */
+
+
+
+
+
+
+
+    
+
+
+  
+
+
+
+
+@media(max-width: 1980px){
+    #iced, .cofeeshop{width: 40vw;
+        height:auto;
+        aspect-ratio: 3/2;
+        
+    }
+}
+
+@media (max-width: 890px){
+    #navbar{font-size: 15px}
+}
+
+@media (max-width: 690px) {
+    #navbar{flex-direction: column;
+    height: auto;
+padding-bottom: 23px;}
+
+.prices{justify-content: center;}
+
+#footbar{height: auto;
+position: fixed ;
+bottom: 0%;} 
+
+ul{padding-bottom: 75px;}
+
+
+}
+
+@media (max-width: 800px){
+    #navbar{flex-direction: column;
+    height: auto;
+padding-bottom: 23px;}
+
+.prices{justify-content: center;}
+
+#footbar{height: auto;
+    position: fixed ;
+    bottom: 0%;
+    width:100vw} 
+
+ul{padding-bottom: 75px;}
+
+.alignment q{font-size: 13px;
+    padding: 0%;
+    
+}}
+
+
+
+
+@media(max-width: 1600px){
+    #iced, .cofeeshop{width: 40vw;
+        height:auto;
+        aspect-ratio: 3/2; 
+    }}
+
+@media (max-width: 550px){
+    #navbar{flex-direction: column;
+    height:auto;
+font-size: 15px;}
+.nav2{padding: 3px;
+    border: #fffefe solid 3px;
+    text-align: center;
+}
+#navbar div{display: flex;
+flex-direction: column;
+align-items: center;
+height: auto;}
+
+.GFG{height: auto;
+padding:5px}
+   
+
+#welcome{font-size: 13px;
+padding-top: 0%;
+margin: 0%;}
+h4{font-size: 13px;
+margin: 10px;}
+
+ol{font-size: 13;}
+
+#main{padding-bottom: 100px;}
+
+
+.prices{justify-content: center;}
+
+#footbar{height: auto;
+position: fixed ;
+bottom: 0%;
+width:100vw} 
+
+.alignment q{font-size: 13px;
+    padding: 0%;}
+    .alignment img{ border: solid 3px #8400ff;
+        width:150px;}}
+
+
+@media (max-width: 400px){
+    #navbar{flex-direction: column;
+    height: auto;
+padding-bottom: 23px;
+flex-shrink:unset;}
+
+.prices{justify-content: center;}
+
+#footbar{height: auto;
+position: fixed ;
+bottom: 0%;} 
+
+.alignment q{font-size: 13px;
+    padding: 10px;
+    border: solid 3px #fc00ff;
+}
+
+.alignment{
+flex-direction: row;
+padding:20px
+}
+
+.alignment img{ border: solid 3px #8400ff;
+width:150px;} }
+
+
+/* .media{display: flex;
+    flex-direction: column;
+    text-align: center;} */
+
+@media (max-width: 600px){
+    #navbar{flex-direction: column;
+    height:auto;
+font-size: 15px;}
+.nav2{padding: 3px;
+    border: #fffefe solid 3px;
+    text-align: center;
+}
+#navbar div{display: flex;
+flex-direction: column;
+align-items: center;
+height: auto;}
+
+.GFG{height: auto;
+padding:5px}
+   
+
+#welcome{font-size: 13px;
+padding-top: 0%;
+margin: 0%;}
+h4{font-size: 13px;
+margin: 10px;}
+
+ol{font-size: 13;}
+
+#main{padding-bottom: 100px;}
+
+
+.prices{justify-content: center;}
+
+#footbar{height: auto;
+position: fixed ;
+bottom: 0%;} 
+
+.alignment q{font-size: 13px;
+    padding: 0%;}}
+
+
+   
+
